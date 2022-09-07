@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="PAR33" Folio="7316" Fecha="2021-12-06T14:42:21" Sello="Re5WKqIc22uv2en1tDYRnTmR5MbNQpHjeOx55dIbzlRAK7sxhcGj3V48HBXsrSaOLuiNND8Za3yIHxi/ERVKgHn1ZmpxSELML9Q4+Ea97GksyKZjkm9dlstbtNT0JW3AlnNAOi/oYUgtZO1NVuodsulQNxETOwjEMzTRB6pxnPUGTi0ydQ5Ri6YLkjVmKfeJWC4fA/Wnx/OTXNH/WB05Vjm63kJDuYjJ+zFdYfxnkDVJq8u/52TUi91AemGUdHl6+GDDJ6pBZp/eSoG/enInHYgZbjYJBxbATGxggOlQmW7GAMRz5WcXNYRuhqruAIkcsoWMKkLLUomeZktgop25qQ==" FormaPago="04" NoCertificado="00001000000414210774" Certificado="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" SubTotal="277.59" Moneda="MXN" TipoCambio="1" Total="322.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="63732">
+  <cfdi:Emisor Rfc="ICR9305317G4" Nombre="ICR SA DE CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="INP001214934" Nombre="INSTITUTO NACIONAL DE PESCA Y ACUACULTURA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="90101500" Cantidad="1.00" ClaveUnidad="E48" Unidad="EA" Descripcion="Consumo del ticket 39875827184218 con fecha de expedición 03/12/2021." ValorUnitario="277.59" Importe="277.59">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="277.59" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="44.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="44.41">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="44.41" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital UUID="ca15c0ac-e205-43b9-9ab4-8110b8cc1a76" FechaTimbrado="2021-12-06T16:42:22" Version="1.1" SelloCFD="Re5WKqIc22uv2en1tDYRnTmR5MbNQpHjeOx55dIbzlRAK7sxhcGj3V48HBXsrSaOLuiNND8Za3yIHxi/ERVKgHn1ZmpxSELML9Q4+Ea97GksyKZjkm9dlstbtNT0JW3AlnNAOi/oYUgtZO1NVuodsulQNxETOwjEMzTRB6pxnPUGTi0ydQ5Ri6YLkjVmKfeJWC4fA/Wnx/OTXNH/WB05Vjm63kJDuYjJ+zFdYfxnkDVJq8u/52TUi91AemGUdHl6+GDDJ6pBZp/eSoG/enInHYgZbjYJBxbATGxggOlQmW7GAMRz5WcXNYRuhqruAIkcsoWMKkLLUomeZktgop25qQ==" NoCertificadoSAT="00001000000505563741" SelloSAT="s6DYk/jbK9K8JM9Augai0ZP1I8RruzgsS2W6sKmj2ctw+hlaDMUUOHiPSFd5CFdpDlhQIPqjePQndizz/Lz8akx0af+zlj13NukMmB1UQmmbRtFg1RfVMZMrk2kyZzWFtq8236yHLFl/xWRuocR6uIPk4SyKa01nP9cSfoYi8vgpJEIKpZpFxz/VjhShAsY2+c5gdTyClcZZ25k70JU2Uph86RBqAY1BP6sqffbT/rNToqZlpryDFHQAHXdHhYRd8ISTaPbtaLbX2CwC9TlF/c4I26eM6FONY4B1i58GgVL14OpFi55Q7MAlHCQMCAB+c9RbITMyyI/PuWkIFnwfiQ==" RfcProvCertif="MIS1112095W0" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+  <cfdi:Addenda xmlns:ecfd="http://www.edxsolutions.com/schemas/strict" xsi:schemaLocation="http://www.edxsolutions.com/schemas/strict http://www.edxsolutions.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33PAR337316">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>112019</ecfd:NroAprob>
+            <ecfd:AnoAprob>2019</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>PAR33</ecfd:Serie>
+            <ecfd:Folio>7316</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:FechaEmis>2021-12-06T14:42:21</ecfd:FechaEmis>
+            <ecfd:FormaPago>PUE</ecfd:FormaPago>
+            <ecfd:MedioPago>04</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>63732</ecfd:LugarExpedicion>
+            <ecfd:FechaFolioFiscalOrig>0001-01-01T00:00:00</ecfd:FechaFolioFiscalOrig>
+            <ecfd:MontoFolioFiscalOrig>0</ecfd:MontoFolioFiscalOrig>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>ICR9305317G4</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>ICR SA DE CV</ecfd:NmbEmisor>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>PASEO DE LOS HEROES</ecfd:Calle>
+              <ecfd:NroExterior>9911</ecfd:NroExterior>
+              <ecfd:NroInterior>B</ecfd:NroInterior>
+              <ecfd:Colonia>ZONA URBANA RIO TIJUANA</ecfd:Colonia>
+              <ecfd:Localidad>TIJUANA</ecfd:Localidad>
+              <ecfd:Municipio>TIJUANA</ecfd:Municipio>
+              <ecfd:Estado>BAJA CALIFORNIA</ecfd:Estado>
+              <ecfd:Pais>MEX</ecfd:Pais>
+              <ecfd:CodigoPostal>22010</ecfd:CodigoPostal>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Calle>Las Jarretaderas</ecfd:Calle>
+              <ecfd:NroExterior>1508</ecfd:NroExterior>
+              <ecfd:NroInterior>A</ecfd:NroInterior>
+              <ecfd:Colonia>Nuevo Vallarta</ecfd:Colonia>
+              <ecfd:Municipio>Nuevo Vallarta</ecfd:Municipio>
+              <ecfd:Estado>Nayarit</ecfd:Estado>
+              <ecfd:Pais>MEX - México</ecfd:Pais>
+              <ecfd:CodigoPostal>63732</ecfd:CodigoPostal>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>INP001214934</ecfd:RFCRecep>
+            <ecfd:NmbRecep>INSTITUTO NACIONAL DE PESCA Y ACUACULTURA</ecfd:NmbRecep>
+            <ecfd:UsoCFDI>G03</ecfd:UsoCFDI>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Calle>AVENIDA  MÉXICO</ecfd:Calle>
+              <ecfd:NroExterior>190</ecfd:NroExterior>
+              <ecfd:Colonia>DEL CARMEN</ecfd:Colonia>
+              <ecfd:Localidad>COYOACAN</ecfd:Localidad>
+              <ecfd:Municipio>COYOACÁN</ecfd:Municipio>
+              <ecfd:Estado>DIF</ecfd:Estado>
+              <ecfd:Pais>MEX</ecfd:Pais>
+              <ecfd:CodigoPostal>04100</ecfd:CodigoPostal>
+            </ecfd:DomFiscalRcp>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXN</ecfd:Moneda>
+            <ecfd:FctConv>1</ecfd:FctConv>
+            <ecfd:SubTotal>277.59</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:MntImp>44.41</ecfd:MntImp>
+            <ecfd:VlrPagar>322.00</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>(Trescientos veintidós pesos 00/100 M.N.)</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>002</ecfd:TipoImp>
+            <ecfd:TipoFactor>Tasa</ecfd:TipoFactor>
+            <ecfd:TasaImp>0.160000</ecfd:TasaImp>
+            <ecfd:MontoImp>44.41</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:ClaveProdServ>90101500</ecfd:ClaveProdServ>
+          <ecfd:DscItem>Consumo del ticket 39875827184218 con fecha de expedición 03/12/2021.</ecfd:DscItem>
+          <ecfd:QtyItem>1.00</ecfd:QtyItem>
+          <ecfd:ClaveUnidad>E48</ecfd:ClaveUnidad>
+          <ecfd:UnmdItem>EA</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>277.59</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>277.59</ecfd:PrcNetoItem>
+          <ecfd:DescuentoMonto>0.00</ecfd:DescuentoMonto>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>002</ecfd:TipoImp>
+            <ecfd:TasaImp>0.160000</ecfd:TasaImp>
+            <ecfd:MontoImp>44.41</ecfd:MontoImp>
+            <ecfd:MontoBaseImp>277.59</ecfd:MontoBaseImp>
+            <ecfd:TipoFactor>Tasa</ecfd:TipoFactor>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>277.59</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:TimeStamp>2021-12-06T16:42:21</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="Personalizado01" />
+        <ecfd:campoString name="Personalizado02" />
+        <ecfd:campoString name="Personalizado03" />
+        <ecfd:campoString name="Personalizado04" />
+        <ecfd:campoString name="Personalizado05" />
+        <ecfd:campoString name="Personalizado06" />
+        <ecfd:campoString name="Personalizado07" />
+        <ecfd:campoString name="Personalizado08" />
+        <ecfd:campoString name="Personalizado09">contribuyente</ecfd:campoString>
+        <ecfd:campoString name="Personalizado10" />
+        <ecfd:campoString name="Personalizado11" />
+        <ecfd:campoString name="Personalizado12" />
+        <ecfd:campoString name="Personalizado13" />
+        <ecfd:campoString name="Personalizado14" />
+        <ecfd:campoString name="Personalizado15" />
+        <ecfd:campoString name="Personalizado16" />
+        <ecfd:campoString name="Personalizado17" />
+        <ecfd:campoString name="Personalizado18" />
+        <ecfd:campoString name="Personalizado19" />
+        <ecfd:campoString name="Personalizado20" />
+        <ecfd:campoString name="Personalizado21" />
+        <ecfd:campoString name="Personalizado22" />
+        <ecfd:campoString name="Personalizado23" />
+        <ecfd:campoString name="Personalizado24" />
+        <ecfd:campoString name="Personalizado25" />
+        <ecfd:campoString name="Personalizado26" />
+        <ecfd:campoString name="Personalizado27" />
+        <ecfd:campoString name="Personalizado28" />
+        <ecfd:campoString name="Personalizado29" />
+        <ecfd:campoString name="Personalizado30" />
+        <ecfd:campoString name="Personalizado31" />
+        <ecfd:campoString name="NumeroTicket">39875827184218</ecfd:campoString>
+        <ecfd:campoString name="TotalRef">322.00</ecfd:campoString>
+        <ecfd:campoString name="Propina">0</ecfd:campoString>
+        <ecfd:campoString name="Email">jimena.sanchez@inapesca.gob.mx</ecfd:campoString>
+        <ecfd:campoString name="Fuente">pticket33</ecfd:campoString>
+        <ecfd:campoString name="RegimenFiscal">601</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">63732</ecfd:campoString>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

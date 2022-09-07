@@ -1,0 +1,908 @@
+﻿/*	
+    Aplicativo: Inapesca Web  
+	Module:		InapescaWeb/Styles
+	FileName:	Comision.css
+	Version:	1.0.0
+	Author:		Juan Antonio López López
+	Company:    INAPESCA - CRIP Salina Cruz
+	Date:		Enero 2015
+	-----------------------------------------------------------------
+	Modifications (Description/date/author):
+	-----------------------------------------------------------------
+	1. Cambio: 
+	   Date: 
+	   Author: 
+	   Company: 
+	-----------------------------------------------------------------
+*/
+
+body
+{
+    background-color: #fff; /*5c87b2*/
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+.page
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#header
+{
+    margin-top: 5px;
+}
+#tblTitle
+{
+    text-align: center;
+    border: none;
+}
+#tblTiltle h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #5c87b2;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px !important;
+    text-align: center;
+}
+
+#main
+{
+    padding: 30px 30px 15px 30px;
+    background-color: #fff; /*#fff*/
+    margin-bottom: 30px;
+    _height: 1px; /* only IE6 applies CSS properties starting with an underscore */
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+#side-a
+{
+    margin-top: 16PX;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #fff /*	border:2px solid #666;*/;
+}
+
+#side-b
+{
+    margin-top: 16PX;
+    float: left;
+    width: 75%;
+    background-color: #fff /*	border:2px solid #666;*/;
+    height: 298px;
+}
+
+#tbl_Datos
+{
+    width: 100%;
+  padding :0 0 0 0 ;
+   border-collapse: collapse; 
+}
+
+
+#tbl_Datos h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+    text-align: center;
+}
+
+
+#tbl_Datos h2
+{
+    font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify ;
+}
+
+#tbl_Datos h3
+{
+    font-weight: bold;
+    
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+   
+}
+
+
+#tbl_Datos h4
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    text-align:right    ;
+}
+
+
+#tbl_Datos h5
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    text-align:center    ;
+}
+
+
+/*.tbl_Views
+{
+    width: 100%;
+  padding :0 0 0 0 ;
+   border-collapse: collapse; 
+}*/
+
+
+
+
+.h1
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    text-align:center    ;
+}
+
+.h3
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px !important;
+    text-align:center    ;
+}
+
+
+.h2
+{
+    font-weight: bold;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align:right;
+}
+
+#Table1
+{
+      width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+
+    }
+
+#Table1 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px ;
+    text-align: left ;
+}
+
+#Table1 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px ;
+    text-align: left ;
+}
+
+
+#Table1 h3
+{
+ font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px !important;
+    text-align:left     ;
+}
+
+
+#Table2
+{
+      width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+    }
+    
+#Table1 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table1 h6
+{
+    color: #5c87b2; 
+    font-size: 12px ;
+    text-align:right ;
+
+    
+}
+
+#Table2 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 181px;
+}
+
+#Table2 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table2 h3
+{
+font-weight: bold;
+    color: #5c87b2;
+     font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px !important;
+    text-align:right  ;
+}
+
+
+#Table2 h4
+{
+font-weight: bold;
+    color:Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 181px;
+}
+
+#Table2 h5
+{
+font-weight: bold;
+    color:Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    /*width: 181px;*/
+}
+
+ #table1 td
+{
+    padding: 0;
+}
+
+#Table3
+{
+    /*font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:right  ;  */  
+       width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+ }
+ 
+ #Table3 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 181px;
+}
+
+#Table3 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table3 h3
+{
+font-weight: bold;
+    color: #5c87b2;
+     font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px !important;
+    text-align:right  ;
+}
+
+
+#Table4
+{
+    /*font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:right  ;  */  
+       width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+ }
+ 
+ #Table4 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 181px;
+}
+
+#Table4 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table4 h3
+{
+font-weight: bold;
+    color: #5c87b2;
+     font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px !important;
+    text-align:right  ;
+}
+
+ #Table4 h4
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+   
+}
+#Table5
+{
+    /*font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:right  ;  */  
+       width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+ }
+ 
+ #Table5 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 201px;
+}
+
+#Table5 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table5 h3
+{
+font-weight: bold;
+    color: #5c87b2;
+     font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px !important;
+    text-align:right  ;
+}
+
+ #Table5 h4
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+#Contenedor
+{
+ height:300px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :400px;
+	/*overflow :scroll ;*/
+	position:relative;
+ }
+ 
+ 
+.Contenedor
+{
+ height:600px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :600px;
+	/*overflow :scroll ;*/
+	position:relative;
+ }
+ 
+ #Contenedor1
+{
+ height:200px;
+	width: 100% ;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :600px;
+	max-width :100%;
+	/*overflow :scroll ;
+	position:relative;*/
+ }
+ 
+  
+ 
+ .Contenedor1
+{
+ height:200px;
+	width: 100% ;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :400px;
+	max-width :100%;
+	/*overflow :scroll ;
+	position:relative;*/
+ }
+ 
+ 
+ #tblHeader
+ {
+ font-family:Arial;
+ font-size:10pt;
+ width:100%;
+ color:white; 
+ border-collapse:collapse;
+ height:100%;
+ }
+ 
+ 
+  .tblHeader
+ {
+ font-family:Arial;
+ font-size:10pt;
+ width:100%;
+ color:white; 
+ border-collapse:collapse;
+ height:100%;
+ }
+ 
+ #DivTableHeader
+ {
+   background-color:#5c87b2;  
+   height:30px;
+   width:100%; 
+   margin:0;
+   padding:0  ;
+    color: White;
+ }
+ 
+  .DivTableHeader
+ {
+   background-color:#5c87b2;  
+   height:30px;
+   width:100%; 
+   margin:0;
+   padding:0 ; 
+  color: White;
+ }
+ 
+ .modalPopup
+ {
+    width:100%;
+    height:100%;
+   
+ }
+ 
+ .centrado-porcentual {
+    position: absolute;
+    left: 56%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+#Table6
+{
+    /*font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:right  ;  */  
+       width: 100%;
+   border-collapse: collapse; 
+   border: 1px solid #ddd;
+ }
+ 
+ #Table6 h1
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 201px;
+}
+
+#Table6 h2
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+    text-align:center  ;
+}
+
+#Table6 h3
+{
+font-weight: bold;
+    color: #5c87b2;
+     font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px !important;
+    text-align:right  ;
+}
+
+ #Table6 h4
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+#Contenedor2
+{
+height:700px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :900px;
+	/*overflow :scroll ;*/
+	position:relative;
+ }
+ 
+ .Contenedor
+{
+ height:300px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :400px;
+	/*overflow :scroll ;*/
+	position:relative;
+ }
+ 
+ .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  *zoom: 1;
+}
+
+.row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+
+.span4 {
+  width: 300px;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.span5 {
+  width: 100%;
+}
+
+
+
+  .MultiFile-label a {
+            width: 50px;
+            height: 30px;
+            background-color: #fb4141;
+            color: #FFF;
+            border: 0;
+            padding: 3px 7px;
+            text-decoration: none;
+        }
+
+            .MultiFile-label a:hover {
+                width: 50px;
+                height: 30px;
+                background-color: red;
+                color: #e5e5e5;
+                border: 0;
+                padding: 3px 7px;
+                text-decoration: none;
+            }
+
+        .MultiFile-list {
+            height: 300px;
+            width: 300px;
+            padding: 10px 16px;
+            border: dashed silver 1px;
+            background-color: #f9f4f4;
+        }
+
+        .MultiFile-label {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 10px;
+        }
+
+        .Multifile-UploadAllButton {
+            width: 75px;
+            height: 30px;
+            background-color: #6262e9;
+            color: #FFF;
+            border: 0;
+            text-decoration: none;
+            text-align: center;
+        }
+
+            .Multifile-UploadAllButton:hover {
+                width: 75px;
+                height: 30px;
+                background-color: #2f2fe7;
+                color: #e5e5e5;
+                border: 0;
+                text-decoration: none;
+                text-align: center;
+                cursor: pointer;
+            }
+
+        .Multifile-UploadAll-div-Button {
+            text-align: right;
+        }
+
+        .Multifile-vk-panel {
+            width: 335px;
+            height: 350px;
+        }
+.tblLoginDGAIPP
+{
+  margin: 50px auto;
+ text-align:right ;
+ background-image:url("../Resources/login_local.png")   
+ }
+
+
+/*modificacion Pedro*/
+ 
+
+.modal-open {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+    .modal.fade .modal-dialog {
+        -webkit-transition: -webkit-transform .3s ease-out;
+        -o-transition: -o-transform .3s ease-out;
+        transition: transform .3s ease-out;
+        -webkit-transform: translate(0,-25%);
+        -ms-transform: translate(0,-25%);
+        -o-transform: translate(0,-25%);
+        transform: translate(0,-25%);
+    }
+
+    .modal.in .modal-dialog {
+        -webkit-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+    .modal-backdrop.fade {
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+
+    .modal-backdrop.in {
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+    .modal-header .close {
+        margin-top: -2px;
+    }
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+    .modal-footer .btn + .btn {
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+
+    .modal-footer .btn-group .btn + .btn {
+        margin-left: -1px;
+    }
+
+    .modal-footer .btn-block + .btn-block {
+        margin-left: 0;
+    }
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+
+@media (min-width:768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+
+    .modal-sm {
+        width: 300px;
+    }
+}
+
+@media (min-width:992px) {
+    .modal-lg {
+        width: 900px;
+    }
+}
+
+.h1Azul
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+}
+.h2Azul
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px ;
+}
+.h3Azul
+{
+font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px ;
+}
+
+
+/*termina Modificacion pedro*/       

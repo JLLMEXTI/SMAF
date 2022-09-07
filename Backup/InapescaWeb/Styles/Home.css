@@ -1,0 +1,188 @@
+﻿/*	
+    Aplicativo: Inapesca Web  
+	Module:		InapescaWeb/Styles
+	FileName:	Home.css
+	Version:	1.0.0
+	Author:		Juan Antonio López López
+	Company:    INAPESCA - CRIP Salina Cruz
+	Date:		Enero 2015
+	-----------------------------------------------------------------
+	Modifications (Description/date/author):
+	-----------------------------------------------------------------
+	1. Cambio: 
+	   Date: 
+	   Author: 
+	   Company: 
+	-----------------------------------------------------------------
+*/
+.layoutFieldset {
+    max-width: 910px;
+}
+ 
+.itemWrapper {
+    float:left;
+}
+ 
+.itemTable {
+    width: 300px;
+}
+ 
+.cellInfo {
+    width: 80%; 
+    padding-left: 5px;
+}
+ 
+.cellLabel {
+    width: 20%;
+}
+ 
+.sortLabel {
+    padding-right: 5px;
+}
+ 
+.demo-container {
+    max-width:965px;
+}
+div.rdpWrap.rdpNumPart {
+    padding-top: 6px;
+}
+
+
+body
+{
+    background-color: #fff; /*5c87b2*/
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+.page
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#header
+{
+    margin-top: 5px;
+}
+#tblTitle
+{
+    text-align: center;
+    border: none;
+}
+#tblTiltle h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #5c87b2;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px !important;
+    text-align: center;
+}
+
+#main
+{
+    padding: 30px 30px 15px 30px;
+    background-color: #fff; /*#fff*/
+    margin-bottom: 30px;
+    _height: 1px; /* only IE6 applies CSS properties starting with an underscore */
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.Contenedor
+{
+ height:600px;
+	width: 100%;
+	border: 1px solid #ddd;
+	overflow-y: scroll;   
+	max-height  :600px;
+	/*overflow :scroll ;*/
+	position:relative;
+ }
+ 
+
+#side-a
+{
+    margin-top: 16PX;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #fff /*	border:2px solid #666;*/;
+}
+
+#side-b
+{
+    margin-top: 16PX;
+    float: left;
+    width: 75%;
+    background-color: #fff /*	border:2px solid #666;*/;
+}
+
+#tbl_Datos
+{
+    width: 100%;
+  padding :0 0 0 0 ;
+   border-collapse: collapse; 
+}
+
+
+#tbl_Datos h1
+{
+font-weight: bold;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+    text-align: center;
+}
+
+
+#tbl_Datos h2
+{
+    font-weight: bold;
+    color: #5c87b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify ;
+}
+
+#tbl_Datos h3
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+    text-align:left   ;
+}
+
+#tbl_Datos h4
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    text-align:right    ;
+}
+
+
+#tbl_Datos h5
+{
+    font-weight: bold;
+    margin-right :30px;
+    color: #5c87b2; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    text-align:left   ;
+}
+

@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{090B5AA3-82FB-4607-BEE8-38EBDA114B4E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InapescaWeb</RootNamespace>
+    <AssemblyName>InapescaWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.40412.0, Culture=es, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Descargas\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit.resources">
+      <HintPath>..\..\..\..\Downloads\ModalPopupExtender\Bin\es\AjaxControlToolkit.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="InapescaWeb.Entidades">
+      <HintPath>..\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Downloads\itextsharp-all-5.5.5\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\..\..\Downloads\itextsharp-all-5.5.5\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\..\..\Downloads\itextsharp-all-5.5.5\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="QRCoder">
+      <HintPath>..\..\RefBAncaria\RefBAncaria\bin\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.OpenAccess.Web.40, Version=2014.2.617.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.QuickStart">
+      <HintPath>C:\Users\Lopez\Downloads\Telerik.QuickStart.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=8.1.14.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" />
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=8.1.14.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2014.2.618.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2014.2.617.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Autorizaciones\Comision_Aut.aspx" />
+    <Content Include="Catalogos\Actualiza_Datos.aspx" />
+    <Content Include="Catalogos\Alta_CuentaContable.aspx" />
+    <Content Include="Catalogos\Alta_Programas.aspx" />
+    <Content Include="Catalogos\Alta_Proyectos.aspx" />
+    <Content Include="Catalogos\PEF.aspx" />
+    <Content Include="Catalogos\ProyectoInvestigador.aspx" />
+    <Content Include="Catalogos\Proyecto_Partida.aspx" />
+    <Content Include="Catalogos\Reporte_Excel.aspx" />
+    <Content Include="Catalogos\Secretarias.aspx" />
+    <Content Include="Comprobaciones\Comprobacion2017.aspx" />
+    <Content Include="Comprobaciones\Comprobacion2018.aspx" />
+    <Content Include="Comprobaciones\ComprobacionAdmin.aspx" />
+    <Content Include="Comprobaciones\ComprobacionViaticosInternacionales.aspx" />
+    <Content Include="Contable\GeneraReferencia.aspx" />
+    <Content Include="Contable\SubirReporteReferencias.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="default1.aspx" />
+    <Content Include="Descarga.aspx" />
+    <Content Include="DescargaMinistracion.aspx" />
+    <Content Include="Cerrar_Session.aspx" />
+    <Content Include="Comprobaciones\Comision_Comprobacion.aspx" />
+    <Content Include="Comprobaciones\ComprobacionSInXml.aspx" />
+    <Content Include="Comprobaciones\Menu_Comprobacion1.aspx" />
+    <Content Include="Comprobaciones\Menu_Comprobaciones.aspx" />
+    <Content Include="Confirmacion.aspx" />
+    <Content Include="Contable\Financiero\CargaToSisec.aspx" />
+    <Content Include="Ministraciones\Alta_Ministracion.aspx" />
+    <Content Include="Ministraciones\Ministracion.aspx" />
+    <Content Include="Ministraciones\Ministracion_2020.aspx" />
+    <Content Include="Monitoreo\Monitoreo.aspx" />
+    <Content Include="Oficios\Donwload_Oficio.aspx" />
+    <Content Include="Oficios\Reimpresion_Oficio_Comision.aspx" />
+    <Content Include="Pagos\PagaViaticos.aspx" />
+    <Content Include="Pagos\Pagos.aspx" />
+    <Content Include="Pagos\Pagos_Viaticos.aspx" />
+    <Content Include="Pagos\Pago_Viaticos.aspx" />
+    <Content Include="Reportes\Comparativo_Mes.aspx" />
+    <Content Include="Reportes\Control_Reintegros.aspx" />
+    <Content Include="Reportes\ReporteProgramas.aspx" />
+    <Content Include="Reportes\ReportePSP.aspx" />
+    <Content Include="Reportes\ReporteReferencias.aspx" />
+    <Content Include="Reportes\ReporteUsuario.aspx" />
+    <Content Include="Reportes\ReporteXproyecto.aspx" />
+    <Content Include="Reportes\Reporte_Programas.aspx" />
+    <Content Include="Reportes\Reporte_Proyeccion_Viat.aspx" />
+    <Content Include="Reportes\Reporte_Viaticos.aspx" />
+    <Content Include="Reportes\Transparencia.aspx" />
+    <Content Include="Reportes\Transparencia1.aspx" />
+    <Content Include="Resources\add_registro.png" />
+    <Content Include="Resources\AgricultInapesca.png" />
+    <Content Include="Resources\AgricultInapesca2021.png" />
+    <Content Include="Resources\AgricultInapescaNormal2022.png" />
+    <Content Include="Resources\AgricultInapescaold2020.png" />
+    <Content Include="Resources\agricultura.png" />
+    <Content Include="Resources\amarillo.png" />
+    <Content Include="Resources\armando.vvelazquez.png" />
+    <Content Include="Resources\autorizado.png" />
+    <Content Include="Resources\base-de-datos.png" />
+    <Content Include="Resources\buscar.png" />
+    <Content Include="Resources\cenefa baja.png" />
+    <Content Include="Resources\cenefa_baja_2022.png" />
+    <Content Include="Resources\cenefa_baja_independencia.jpeg" />
+    <Content Include="Resources\cenefa_baja_independencia.png" />
+    <Content Include="Resources\cenefa_baja_leona.png" />
+    <Content Include="Resources\cenefa_baja_zapata.png" />
+    <Content Include="Resources\Copy of firma-inapesca.png" />
+    <Content Include="Resources\descarga.png" />
+    <Content Include="Resources\descarga1.png" />
+    <Content Include="Resources\descargarpdf.png" />
+    <Content Include="Resources\deseleccionado.png" />
+    <Content Include="Resources\excelTobd.png" />
+    <Content Include="Resources\firma-inapesca.png" />
+    <Content Include="Resources\firma-inapesca_old.png" />
+    <Content Include="Resources\fondo.png" />
+    <Content Include="Resources\francisco.aguilar.png" />
+    <Content Include="Resources\francisco.pineda.png" />
+    <Content Include="Resources\gris.png" />
+    <Content Include="Resources\icono_cal.png" />
+    <Content Include="Resources\INAPESCA.png" />
+    <Content Include="Resources\InapescaVertical.png" />
+    <Content Include="Resources\INAPESCA_OLD.png" />
+    <Content Include="Resources\jesus.gonzalez.png" />
+    <Content Include="Resources\juan.diaz.png" />
+    <Content Include="Resources\julian.castro.png" />
+    <Content Include="Resources\login_local.png" />
+    <Content Include="Resources\logoban.png" />
+    <Content Include="Resources\mexico.png" />
+    <Content Include="Resources\pdf.png" />
+    <Content Include="Resources\rojo.png" />
+    <Content Include="Resources\SADER.png" />
+    <Content Include="Resources\SADER_OLD.png" />
+    <Content Include="Resources\seleccionado.png" />
+    <Content Include="Resources\subir.png" />
+    <Content Include="Resources\verde.png" />
+    <Content Include="Resources\xml.png" />
+    <Content Include="Resources\zapata.png" />
+    <Content Include="Solicitudes\SolicitudPSP.aspx" />
+    <Content Include="Solicitudes\Solicitud_Comision.aspx" />
+    <Content Include="Soporte\Alta_Permisos.aspx" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\demo.css" />
+    <Content Include="Styles\demo.js" />
+    <Content Include="Styles\jquery-1.7.1.min.js" />
+    <Content Include="Styles\Login\bootstrap-material-design.min.css" />
+    <Content Include="Styles\Login\bootstrap-material-design.min.js" />
+    <Content Include="Styles\Login\custom.css" />
+    <Content Include="Styles\Login\jquery-3.2.1.slim.min.js" />
+    <Content Include="Styles\Login\popper.js" />
+    <Content Include="Sustantivo\ActualizaModuloConsulta.aspx" />
+    <Content Include="Sustantivo\MenuSolicitudesMC.aspx" />
+    <Content Include="Utilerias\Cambia_Password.aspx" />
+    <Content Include="Utilerias\Encriptador.aspx" />
+    <Content Include="Home\Home.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Oficios\Comision.aspx" />
+    <Content Include="Resources\aceptar.gif" />
+    <Content Include="Resources\cancelar.gif" />
+    <Content Include="Resources\Explorer.bmp" />
+    <Content Include="Resources\folder.gif" />
+    <Content Include="Resources\Icono_calendario.png" />
+    <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\SAGARPA_old.png" />
+    <Content Include="Resources\verde.gif" />
+    <Content Include="Resources\yellow.gif" />
+    <Content Include="Styles\Comision.css" />
+    <Content Include="Styles\Home.css" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Utilerias\ProyeccionViaticosPorProyecto.aspx" />
+    <Content Include="Validaciones\Validacion.aspx" />
+    <Content Include="Validaciones\Vuelos\Costo_Vuelos.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autorizaciones\Comision_Aut.aspx.cs">
+      <DependentUpon>Comision_Aut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Autorizaciones\Comision_Aut.aspx.designer.cs">
+      <DependentUpon>Comision_Aut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Actualiza_Datos.aspx.cs">
+      <DependentUpon>Actualiza_Datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Actualiza_Datos.aspx.designer.cs">
+      <DependentUpon>Actualiza_Datos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Alta_CuentaContable.aspx.cs">
+      <DependentUpon>Alta_CuentaContable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Alta_CuentaContable.aspx.designer.cs">
+      <DependentUpon>Alta_CuentaContable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Alta_Programas.aspx.cs">
+      <DependentUpon>Alta_Programas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Alta_Programas.aspx.designer.cs">
+      <DependentUpon>Alta_Programas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Alta_Proyectos.aspx.cs">
+      <DependentUpon>Alta_Proyectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Alta_Proyectos.aspx.designer.cs">
+      <DependentUpon>Alta_Proyectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\PEF.aspx.cs">
+      <DependentUpon>PEF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\PEF.aspx.designer.cs">
+      <DependentUpon>PEF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\ProyectoInvestigador.aspx.cs">
+      <DependentUpon>ProyectoInvestigador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\ProyectoInvestigador.aspx.designer.cs">
+      <DependentUpon>ProyectoInvestigador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Proyecto_Partida.aspx.cs">
+      <DependentUpon>Proyecto_Partida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Proyecto_Partida.aspx.designer.cs">
+      <DependentUpon>Proyecto_Partida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Reporte_Excel.aspx.cs">
+      <DependentUpon>Reporte_Excel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Reporte_Excel.aspx.designer.cs">
+      <DependentUpon>Reporte_Excel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Secretarias.aspx.cs">
+      <DependentUpon>Secretarias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Secretarias.aspx.designer.cs">
+      <DependentUpon>Secretarias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsFuncionesGral.cs" />
+    <Compile Include="clsPdf.cs" />
+    <Compile Include="Comprobaciones\Comprobacion2017.aspx.cs">
+      <DependentUpon>Comprobacion2017.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\Comprobacion2017.aspx.designer.cs">
+      <DependentUpon>Comprobacion2017.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\Comprobacion2018.aspx.cs">
+      <DependentUpon>Comprobacion2018.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\Comprobacion2018.aspx.designer.cs">
+      <DependentUpon>Comprobacion2018.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionAdmin.aspx.cs">
+      <DependentUpon>ComprobacionAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionAdmin.aspx.designer.cs">
+      <DependentUpon>ComprobacionAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionViaticosInternacionales.aspx.cs">
+      <DependentUpon>ComprobacionViaticosInternacionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionViaticosInternacionales.aspx.designer.cs">
+      <DependentUpon>ComprobacionViaticosInternacionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\GeneraReferencia.aspx.cs">
+      <DependentUpon>GeneraReferencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contable\GeneraReferencia.aspx.designer.cs">
+      <DependentUpon>GeneraReferencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\SubirReporteReferencias.aspx.cs">
+      <DependentUpon>SubirReporteReferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contable\SubirReporteReferencias.aspx.designer.cs">
+      <DependentUpon>SubirReporteReferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default1.aspx.cs">
+      <DependentUpon>default1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default1.aspx.designer.cs">
+      <DependentUpon>default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Descarga.aspx.cs">
+      <DependentUpon>Descarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Descarga.aspx.designer.cs">
+      <DependentUpon>Descarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DescargaMinistracion.aspx.cs">
+      <DependentUpon>DescargaMinistracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DescargaMinistracion.aspx.designer.cs">
+      <DependentUpon>DescargaMinistracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cerrar_Session.aspx.cs">
+      <DependentUpon>Cerrar_Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cerrar_Session.aspx.designer.cs">
+      <DependentUpon>Cerrar_Session.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsDictionary.cs" />
+    <Compile Include="clsFtp.cs" />
+    <Compile Include="clsMail.cs" />
+    <Compile Include="clsMenu.cs" />
+    <Compile Include="clsPartidas.cs" />
+    <Compile Include="clsTreeview.cs" />
+    <Compile Include="Comprobaciones\Comision_Comprobacion.aspx.cs">
+      <DependentUpon>Comision_Comprobacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\Comision_Comprobacion.aspx.designer.cs">
+      <DependentUpon>Comision_Comprobacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionSInXml.aspx.cs">
+      <DependentUpon>ComprobacionSInXml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\ComprobacionSInXml.aspx.designer.cs">
+      <DependentUpon>ComprobacionSInXml.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\Menu_Comprobacion1.aspx.cs">
+      <DependentUpon>Menu_Comprobacion1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\Menu_Comprobacion1.aspx.designer.cs">
+      <DependentUpon>Menu_Comprobacion1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comprobaciones\Menu_Comprobaciones.aspx.cs">
+      <DependentUpon>Menu_Comprobaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comprobaciones\Menu_Comprobaciones.aspx.designer.cs">
+      <DependentUpon>Menu_Comprobaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmacion.aspx.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmacion.aspx.designer.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contable\Financiero\CargaToSisec.aspx.cs">
+      <DependentUpon>CargaToSisec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contable\Financiero\CargaToSisec.aspx.designer.cs">
+      <DependentUpon>CargaToSisec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ministraciones\Alta_Ministracion.aspx.cs">
+      <DependentUpon>Alta_Ministracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ministraciones\Alta_Ministracion.aspx.designer.cs">
+      <DependentUpon>Alta_Ministracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ministraciones\Ministracion.aspx.cs">
+      <DependentUpon>Ministracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ministraciones\Ministracion.aspx.designer.cs">
+      <DependentUpon>Ministracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ministraciones\Ministracion_2020.aspx.cs">
+      <DependentUpon>Ministracion_2020.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ministraciones\Ministracion_2020.aspx.designer.cs">
+      <DependentUpon>Ministracion_2020.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoreo\Monitoreo.aspx.cs">
+      <DependentUpon>Monitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoreo\Monitoreo.aspx.designer.cs">
+      <DependentUpon>Monitoreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oficios\Donwload_Oficio.aspx.cs">
+      <DependentUpon>Donwload_Oficio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oficios\Donwload_Oficio.aspx.designer.cs">
+      <DependentUpon>Donwload_Oficio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oficios\Reimpresion_Oficio_Comision.aspx.cs">
+      <DependentUpon>Reimpresion_Oficio_Comision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oficios\Reimpresion_Oficio_Comision.aspx.designer.cs">
+      <DependentUpon>Reimpresion_Oficio_Comision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos\PagaViaticos.aspx.cs">
+      <DependentUpon>PagaViaticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagos\PagaViaticos.aspx.designer.cs">
+      <DependentUpon>PagaViaticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos\Pagos.aspx.cs">
+      <DependentUpon>Pagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagos\Pagos.aspx.designer.cs">
+      <DependentUpon>Pagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos\Pagos_Viaticos.aspx.cs">
+      <DependentUpon>Pagos_Viaticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagos\Pagos_Viaticos.aspx.designer.cs">
+      <DependentUpon>Pagos_Viaticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagos\Pago_Viaticos.aspx.cs">
+      <DependentUpon>Pago_Viaticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagos\Pago_Viaticos.aspx.designer.cs">
+      <DependentUpon>Pago_Viaticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ChartTitle.cs" />
+    <Compile Include="Reportes\Comparativo_Mes.aspx.cs">
+      <DependentUpon>Comparativo_Mes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Comparativo_Mes.aspx.designer.cs">
+      <DependentUpon>Comparativo_Mes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Control_Reintegros.aspx.cs">
+      <DependentUpon>Control_Reintegros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Control_Reintegros.aspx.designer.cs">
+      <DependentUpon>Control_Reintegros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\DataSeries.cs" />
+    <Compile Include="Reportes\DataSeries_2.cs" />
+    <Compile Include="Reportes\ReporteProgramas.aspx.cs">
+      <DependentUpon>ReporteProgramas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteProgramas.aspx.designer.cs">
+      <DependentUpon>ReporteProgramas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReportePSP.aspx.cs">
+      <DependentUpon>ReportePSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReportePSP.aspx.designer.cs">
+      <DependentUpon>ReportePSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteReferencias.aspx.cs">
+      <DependentUpon>ReporteReferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteReferencias.aspx.designer.cs">
+      <DependentUpon>ReporteReferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteUsuario.aspx.cs">
+      <DependentUpon>ReporteUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteUsuario.aspx.designer.cs">
+      <DependentUpon>ReporteUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteXproyecto.aspx.cs">
+      <DependentUpon>ReporteXproyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteXproyecto.aspx.designer.cs">
+      <DependentUpon>ReporteXproyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Programas.aspx.cs">
+      <DependentUpon>Reporte_Programas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Programas.aspx.designer.cs">
+      <DependentUpon>Reporte_Programas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Proyeccion_Viat.aspx.cs">
+      <DependentUpon>Reporte_Proyeccion_Viat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Proyeccion_Viat.aspx.designer.cs">
+      <DependentUpon>Reporte_Proyeccion_Viat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Viaticos.aspx.cs">
+      <DependentUpon>Reporte_Viaticos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Reporte_Viaticos.aspx.designer.cs">
+      <DependentUpon>Reporte_Viaticos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Transparencia.aspx.cs">
+      <DependentUpon>Transparencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Transparencia.aspx.designer.cs">
+      <DependentUpon>Transparencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Transparencia1.aspx.cs">
+      <DependentUpon>Transparencia1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\Transparencia1.aspx.designer.cs">
+      <DependentUpon>Transparencia1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\SolicitudPSP.aspx.cs">
+      <DependentUpon>SolicitudPSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solicitudes\SolicitudPSP.aspx.designer.cs">
+      <DependentUpon>SolicitudPSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\Solicitud_Comision.aspx.cs">
+      <DependentUpon>Solicitud_Comision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solicitudes\Solicitud_Comision.aspx.designer.cs">
+      <DependentUpon>Solicitud_Comision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Soporte\Alta_Permisos.aspx.cs">
+      <DependentUpon>Alta_Permisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Soporte\Alta_Permisos.aspx.designer.cs">
+      <DependentUpon>Alta_Permisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sustantivo\ActualizaModuloConsulta.aspx.cs">
+      <DependentUpon>ActualizaModuloConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sustantivo\ActualizaModuloConsulta.aspx.designer.cs">
+      <DependentUpon>ActualizaModuloConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sustantivo\MenuSolicitudesMC.aspx.cs">
+      <DependentUpon>MenuSolicitudesMC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sustantivo\MenuSolicitudesMC.aspx.designer.cs">
+      <DependentUpon>MenuSolicitudesMC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\Cambia_Password.aspx.cs">
+      <DependentUpon>Cambia_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilerias\Cambia_Password.aspx.designer.cs">
+      <DependentUpon>Cambia_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilerias\Encriptador.aspx.cs">
+      <DependentUpon>Encriptador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilerias\Encriptador.aspx.designer.cs">
+      <DependentUpon>Encriptador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oficios\Comision.aspx.cs">
+      <DependentUpon>Comision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oficios\Comision.aspx.designer.cs">
+      <DependentUpon>Comision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilerias\ProyeccionViaticosPorProyecto.aspx.cs">
+      <DependentUpon>ProyeccionViaticosPorProyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilerias\ProyeccionViaticosPorProyecto.aspx.designer.cs">
+      <DependentUpon>ProyeccionViaticosPorProyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validaciones\Validacion.aspx.cs">
+      <DependentUpon>Validacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validaciones\Validacion.aspx.designer.cs">
+      <DependentUpon>Validacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validaciones\Vuelos\Costo_Vuelos.aspx.cs">
+      <DependentUpon>Costo_Vuelos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validaciones\Vuelos\Costo_Vuelos.aspx.designer.cs">
+      <DependentUpon>Costo_Vuelos.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InapescaWeb.BRL\InapescaWeb.BRL.csproj">
+      <Project>{9E452915-86A4-4499-B7C6-EDB42B6FF5EE}</Project>
+      <Name>InapescaWeb.BRL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InapescaWeb.DAL\InapescaWeb.DAL.csproj">
+      <Project>{1211AE21-A6A2-42F4-A400-BCC288C0D4A9}</Project>
+      <Name>InapescaWeb.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Catalogos\Chart\" />
+    <Folder Include="obj\" />
+    <Folder Include="PDF\REFERENCIAS\" />
+    <Folder Include="Solicitudes\PDF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="CrystalReport1.mht" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Reportes\REPORTE.xls" />
+    <None Include="Reportes\Reporte_PartidasTransparencia.xls" />
+    <None Include="Reportes\reporte_programas.xlsx" />
+    <None Include="Reportes\Reporte_REFERENCIAS.xls" />
+    <None Include="Reportes\Reporte_Transparencia.xls" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3846</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

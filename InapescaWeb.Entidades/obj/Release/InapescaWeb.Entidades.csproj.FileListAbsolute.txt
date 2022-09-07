@@ -1,0 +1,9 @@
+C:\Users\Inapesca\Desktop\sytes_mod_pedro\Sytes.Net\InapescaWeb.Entidades\bin\Release\InapescaWeb.Entidades.dll
+C:\Users\Inapesca\Desktop\sytes_mod_pedro\Sytes.Net\InapescaWeb.Entidades\bin\Release\InapescaWeb.Entidades.pdb
+C:\Users\Inapesca\Desktop\sytes_mod_pedro\Sytes.Net\InapescaWeb.Entidades\obj\Release\InapescaWeb.Entidades.dll
+C:\Users\Inapesca\Desktop\sytes_mod_pedro\Sytes.Net\InapescaWeb.Entidades\obj\Release\InapescaWeb.Entidades.pdb
+C:\Users\Inapesca\Desktop\smafactual\Sytes.Net\InapescaWeb.Entidades\bin\Release\InapescaWeb.Entidades.dll
+C:\Users\Inapesca\Desktop\smafactual\Sytes.Net\InapescaWeb.Entidades\bin\Release\InapescaWeb.Entidades.pdb
+C:\Users\Inapesca\Desktop\smafactual\Sytes.Net\InapescaWeb.Entidades\obj\Release\InapescaWeb.Entidades.dll
+C:\Users\Inapesca\Desktop\smafactual\Sytes.Net\InapescaWeb.Entidades\obj\Release\InapescaWeb.Entidades.pdb
+C:\Users\Inapesca\Desktop\smafactual\Sytes.Net\InapescaWeb.Entidades\obj\Release\InapescaWeb.Entidades.csprojResolveAssemblyReference.cache

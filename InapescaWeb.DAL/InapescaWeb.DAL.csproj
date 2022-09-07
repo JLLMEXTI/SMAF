@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1211AE21-A6A2-42F4-A400-BCC288C0D4A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InapescaWeb.DAL</RootNamespace>
+    <AssemblyName>InapescaWeb.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsDictionary.cs" />
+    <Compile Include="clsFunciones.cs" />
+    <Compile Include="MngDatosComision.cs" />
+    <Compile Include="MngDatosConfiguraciones.cs" />
+    <Compile Include="MngDatosContrato.cs" />
+    <Compile Include="MngDatosCuentasBancarias.cs" />
+    <Compile Include="MngDatosDgaipp.cs" />
+    <Compile Include="MngConexion.cs" />
+    <Compile Include="MngDatosActividades.cs" />
+    <Compile Include="MngDatosActualizaDatos.cs" />
+    <Compile Include="MngDatosAnio.cs" />
+    <Compile Include="MngDatosCatalogos.cs" />
+    <Compile Include="MngDatosComisionDetalle.cs" />
+    <Compile Include="MngDatosComisionExtraordinaria.cs" />
+    <Compile Include="MngDatosComponente.cs" />
+    <Compile Include="MngDatosComprobacion.cs" />
+    <Compile Include="MngDatosDependencia.cs" />
+    <Compile Include="MngDatosDirecciones.cs" />
+    <Compile Include="MngDatosEspecies.cs" />
+    <Compile Include="MngDatosEstado.cs" />
+    <Compile Include="MngDatosEtq.cs" />
+    <Compile Include="MngDatosExcel.cs" />
+    <Compile Include="MngDatosFinancieros.cs" />
+    <Compile Include="MngDatosGenerarRef.cs" />
+    <Compile Include="MngDatosImagenes.cs" />
+    <Compile Include="MngDatosItinerario.cs" />
+    <Compile Include="MngDatosJerarquia.cs" />
+    <Compile Include="MngDatosLogin.cs" />
+    <Compile Include="MngDatosMail.cs" />
+    <Compile Include="MngDatosMenu.cs" />
+    <Compile Include="MngDatosMinistracion.cs" />
+    <Compile Include="MngDatosMinutario.cs" />
+    <Compile Include="MngDatosOficio.cs" />
+    <Compile Include="MngDatosPagos.cs" />
+    <Compile Include="MngDatosPartidas.cs" />
+    <Compile Include="MngDatosPassword.cs" />
+    <Compile Include="MngDatosPef.cs" />
+    <Compile Include="MngDatosPermisos.cs" />
+    <Compile Include="MngDatosPresupuestarios.cs" />
+    <Compile Include="MngDatosProductos.cs" />
+    <Compile Include="MngDatosProgramas.cs" />
+    <Compile Include="MngDatosProovedores.cs" />
+    <Compile Include="MngDatosProyeccionViaticos.cs" />
+    <Compile Include="MngDatosProyecto.cs" />
+    <Compile Include="MngDatosReportes.cs" />
+    <Compile Include="MngDatosSolicitud.cs" />
+    <Compile Include="MngDatosTransparencia.cs" />
+    <Compile Include="MngDatosTransporte.cs" />
+    <Compile Include="MngDatosUsuarios.cs" />
+    <Compile Include="MngDatosViaticos.cs" />
+    <Compile Include="MngDatosXml.cs" />
+    <Compile Include="MngDatosZonas.cs" />
+    <Compile Include="MngEncriptacion.cs" />
+    <Compile Include="MngEncriptacionDgaipp.cs" />
+    <Compile Include="MngFtp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InapescaWeb.Entidades\InapescaWeb.Entidades.csproj">
+      <Project>{6B711C7C-3272-43FC-BB0C-A99E644DF90B}</Project>
+      <Name>InapescaWeb.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

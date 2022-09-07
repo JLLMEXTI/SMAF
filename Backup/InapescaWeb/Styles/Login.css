@@ -1,0 +1,216 @@
+/*	
+    Aplicativo: Inapesca Web  
+	Module:		InapescaWeb
+	FileName:	Login.css
+	Version:	1.0.0
+	Author:		Juan Antonio López López
+	Company:    INAPESCA - CRIP Salina Cruz
+	Date:		Enero 2015
+	-----------------------------------------------------------------
+	Modifications (Description/date/author):
+	-----------------------------------------------------------------
+	1. Cambio: 
+	   Date: 
+	   Author: 
+	   Company: 
+	-----------------------------------------------------------------
+*/
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+
+
+
+textarea 
+{
+  height: auto;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+textarea:focus,
+input[type="text"]:fob
+body
+{
+    background-color:  #fff;
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+.page
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+      margin-top : 15px;
+}
+
+#tblTitle
+{
+ text-align:center;
+ border:none;
+ 
+ }
+#tblTiltle h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #5c87b2;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px !important;
+ text-align :center ;
+    }
+    
+#main
+{
+   padding : 30px 30px 15px 30px;
+ background-color:  #5c87b2 ;/*#fff*/
+   margin-bottom: 30px;
+   _height: 1px; /* only IE6 applies CSS properties starting with an underscore */
+    text-align :center;
+}
+
+h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #5c87b2;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px !important;
+ text-align :center ;
+    }
+/*
+#login
+{
+   background:url(Resources/fondo.jpg);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 1px;	
+   
+  }
+
+div.centerTable
+{
+   text-align: center;
+   background:
+}
+*/
+
+/*
+div.centerTable tblLogin {
+       margin: 50px auto;
+ 
+       border-collapse:collapse;
+       border-spacing:0;
+       
+}*/
+
+
+.tblLogin
+{
+  margin: 50px auto;
+ text-align:right ;   
+ }
+
+h1,h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer
+{
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    font-size: .9em;
+    
+}

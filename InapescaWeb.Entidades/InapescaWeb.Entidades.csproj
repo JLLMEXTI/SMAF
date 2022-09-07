@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B711C7C-3272-43FC-BB0C-A99E644DF90B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InapescaWeb.Entidades</RootNamespace>
+    <AssemblyName>InapescaWeb.Entidades</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cfdiv4.cs" />
+    <Compile Include="cfdv33.cs" />
+    <Compile Include="Comision.cs" />
+    <Compile Include="ComisionComparativo.cs" />
+    <Compile Include="ComisionDetalle.cs" />
+    <Compile Include="ComisionProyecto.cs" />
+    <Compile Include="Comision_Extraordinaria.cs" />
+    <Compile Include="comision_informe.cs" />
+    <Compile Include="Comisio_Comprobacion.cs" />
+    <Compile Include="comprobacion.cs" />
+    <Compile Include="CuentasBancarias.cs" />
+    <Compile Include="DatosComprobacion.cs" />
+    <Compile Include="DetallesTotalCom.cs" />
+    <Compile Include="Entidad.cs" />
+    <Compile Include="Excel.cs" />
+    <Compile Include="GenerarRef.cs" />
+    <Compile Include="GridView.cs" />
+    <Compile Include="Itinerario.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="MenuComprobacion.cs" />
+    <Compile Include="Ministracion.cs" />
+    <Compile Include="Minutario.cs" />
+    <Compile Include="Pagos.cs" />
+    <Compile Include="Partidas.cs" />
+    <Compile Include="Pef.cs" />
+    <Compile Include="Programa.cs" />
+    <Compile Include="Proovedor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto.cs" />
+    <Compile Include="Reporte.cs" />
+    <Compile Include="Reporte_Viaticos.cs" />
+    <Compile Include="SolicitudMC.cs" />
+    <Compile Include="SolicitudPSP.cs" />
+    <Compile Include="TipoCambio.cs" />
+    <Compile Include="RepTransparencia.cs" />
+    <Compile Include="Transparencia.cs" />
+    <Compile Include="Transparencia_Partidas.cs" />
+    <Compile Include="Transparencia_Vinculos.cs" />
+    <Compile Include="Transporte.cs" />
+    <Compile Include="Ubicacion.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="usuariosDgaipp.cs" />
+    <Compile Include="WebPage.cs" />
+    <Compile Include="Xml.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
