@@ -82,6 +82,7 @@ namespace InapescaWeb
 
             poXml.SERIE = factura.Serie;
             poXml.FOLIO = factura.Folio;
+            poXml.VERSION = factura.Version;
             if (dVersion < 3.3)
             {
                 poXml.FORMA_PAGO = factura.formaDePago.ToString();
@@ -92,6 +93,7 @@ namespace InapescaWeb
             }
             else
             {
+                
                 poXml.FORMA_PAGO = factura.FormaPago.ToString();
                 //poXml.METODO_PAGO = factura.MetodoPago.ToString();
                 switch (factura.MetodoPago.ToString())
@@ -138,7 +140,7 @@ namespace InapescaWeb
             poXml.MUNICIPIO_EMISOR = "NA";
             poXml.ESTADO_EMISOR = "NA";
             poXml.PAIS_EMISOR = "NA";
-            poXml.CP_EMISOR = "00000";
+            poXml.CP_EMISOR = factura.LugarExpedicion;
 
             ///////////////// datos receptor
             /*
@@ -170,7 +172,7 @@ namespace InapescaWeb
             poXml.SUBTOTAL = Convert_Decimales(factura.SubTotal.ToString());
             poXml.DESCUENTO = Convert_Decimales(factura.Descuento.ToString());
             poXml.TOTAL = Convert_Decimales(factura.Total.ToString());
-
+          
 
             poXml.LUGAR_EXPEDICION = factura.LugarExpedicion.ToString();
             poXml.NO_CERTIFICADO = factura.NoCertificado;

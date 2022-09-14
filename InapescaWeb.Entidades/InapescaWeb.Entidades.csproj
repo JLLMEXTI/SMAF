@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cfdiv4.cs" />
-    <Compile Include="cfdv33.cs" />
+    <Compile Include="cfdiv33.cs" />
+    <Compile Include="cfdv4.cs" />
     <Compile Include="Comision.cs" />
     <Compile Include="ComisionComparativo.cs" />
     <Compile Include="ComisionDetalle.cs" />

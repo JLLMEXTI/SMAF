@@ -87,7 +87,7 @@
                                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h3>
                                 </td>
                                 <td style="width: 45%;">
-                                    <asp:DropDownList ID="DropDownList1" runat="server" Width="100%">
+                                    <asp:DropDownList ID="DropDownList1" runat="server" Width="100%" AutoPostBack="True" OnSelectedIndexChanged="dplBusqueda_SelectedIndexChanged">
                                     </asp:DropDownList>
                                 </td>
                                 <td style="width: 10%; text-align: center">
@@ -102,7 +102,7 @@
                                             <tr>
                                                 <td style="text-align: center;">
                                                     <hr />
-                                                    <h2><asp:Label ID="Label3" runat="server" CssClass="h1Azul" Text="SOLICITUDES POR ATENDER"></asp:Label></h2>
+                                                    <h2><asp:Label ID="Label3" runat="server" CssClass="h1Azul" Text="SOLICITUDES"></asp:Label></h2>
                                                     <hr />
                                                 </td>
                                             </tr>
@@ -112,12 +112,12 @@
                                                         <AlternatingRowStyle BackColor="White" />
 
                                                         <Columns>
-                                                            <asp:HyperLinkField DataNavigateUrlFields="Archivo" DataNavigateUrlFormatString="~/Sustantivo/ActualizaModuloConsulta.aspx?folio={0}|9" DataTextField="Folio" HeaderText="Archivo" ItemStyle-Width="35%" />
+                                                            <asp:HyperLinkField DataNavigateUrlFields="Archivo" DataNavigateUrlFormatString="~/Sustantivo/ActualizaModuloConsulta.aspx?folio={0}|9" DataTextField="Solicitud" HeaderText="Archivo" ItemStyle-Width="15%" />
 
-                                                            <asp:BoundField DataField="Folio" HeaderText="Estatus" ItemStyle-Width="10%" />
-                                                            <asp:BoundField DataField="Lugar" HeaderText="Recurso" ItemStyle-Width="25%" />
-                                                            <asp:BoundField DataField="Periodo" HeaderText="Fecha" ItemStyle-Width="20%" />
-                                                            <asp:ImageField DataImageUrlField="Estatus" HeaderText="Indicador" ControlStyle-Width="20px" ControlStyle-Height="20px">
+                                                            <asp:BoundField DataField="Folio" HeaderText="No. Oficio" ItemStyle-Width="20%" />
+                                                            <asp:BoundField DataField="Lugar" HeaderText="Recurso" ItemStyle-Width="10%" />
+                                                            <asp:BoundField DataField="Periodo" HeaderText="Razon Social" ItemStyle-Width="35%" />
+                                                            <asp:ImageField DataImageUrlField="Estatus" HeaderText="Estatus" ControlStyle-Width="20px" ControlStyle-Height="20px">
                                                             </asp:ImageField>
                                                         </Columns>
                                                         <EditRowStyle BackColor="#2461BF" />

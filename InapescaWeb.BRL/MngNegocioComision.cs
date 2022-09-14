@@ -103,9 +103,9 @@ namespace InapescaWeb.BRL
       return MngDatosComision.Lista_ComprobantesFiscales ( psOficio,  psComisionado,  psUbicacionComisionado,  psProyecto,  psUbicacionproyecto,  psarchivo);
       }
 
-      public static Boolean Inserta_Comprobacion_Comision(string psOficio, string psClvOficio, string psComisionado, string psUbicacionComisionado, string psFechaFactura, string psProyecto, string psUbicacionProyecto, string psTipoComprobacion, string psClvConcepto, string psDescripcionConcepto, string psPdf, string psImporte, string psXml, string psMetPago, string psMetPagoUsser, string psObservaciones, string psDocumento, string psTicket, string psUUID, string psPeriodo)
+      public static Boolean Inserta_Comprobacion_Comision(string psOficio, string psClvOficio, string psComisionado, string psUbicacionComisionado, string psFechaFactura, string psProyecto, string psUbicacionProyecto, string psTipoComprobacion, string psClvConcepto, string psDescripcionConcepto, string psPdf, string psImporte, string psXml, string psMetPago, string psMetPagoUsser, string psObservaciones, string psDocumento, string psTicket, string psUUID, string psPeriodo, string psVersion="")
       {
-          return MngDatosComision.Inserta_Comprobacion_Comision(psOficio, psClvOficio, psComisionado, psUbicacionComisionado, psFechaFactura, psProyecto, psUbicacionProyecto, psTipoComprobacion, psClvConcepto, psDescripcionConcepto, psPdf, psImporte, psXml,psMetPago,psMetPagoUsser, psObservaciones, psDocumento,psTicket , psUUID,psPeriodo  );
+          return MngDatosComision.Inserta_Comprobacion_Comision(psOficio, psClvOficio, psComisionado, psUbicacionComisionado, psFechaFactura, psProyecto, psUbicacionProyecto, psTipoComprobacion, psClvConcepto, psDescripcionConcepto, psPdf, psImporte, psXml,psMetPago,psMetPagoUsser, psObservaciones, psDocumento,psTicket , psUUID,psPeriodo, psVersion  );
       }
 
       public static string Obtiene_Folio_Comprobacion(string Oficio, string Archivo, string Comisionado)

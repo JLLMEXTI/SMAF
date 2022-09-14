@@ -2343,7 +2343,7 @@ namespace InapescaWeb.Comprobaciones
                         }
 
 
-                        bool InsertaCom = MngNegocioComision.Inserta_Comprobacion_Comision(detalleComision.Oficio, detalleComision.Archivo, detalleComision.Comisionado, detalleComision.Ubicacion_Comisionado, TbFechaFac.Text.ToString(), detalleComision.Proyecto, detalleComision.Dep_Proy, dplFiscales.SelectedValue.ToString(), lsClvConcepto, lsConcepto, fuplPDF.FileName, clsFuncionesGral.ConvertString(totalImporteXml), fuplXML.FileName, sMetodoPago, sMetodoPago, lsConcepto + "|factura|" + fuplPDF.FileName.Replace(".pdf", ""), fuplPDF.FileName.Replace(".pdf", ""), ticket, TbUUID.Text.ToString(), detalleComision.Periodo);
+                        bool InsertaCom = MngNegocioComision.Inserta_Comprobacion_Comision(detalleComision.Oficio, detalleComision.Archivo, detalleComision.Comisionado, detalleComision.Ubicacion_Comisionado, TbFechaFac.Text.ToString(), detalleComision.Proyecto, detalleComision.Dep_Proy, dplFiscales.SelectedValue.ToString(), lsClvConcepto, lsConcepto, fuplPDF.FileName, clsFuncionesGral.ConvertString(totalImporteXml), fuplXML.FileName, sMetodoPago, sMetodoPago, lsConcepto + "|factura|" + fuplPDF.FileName.Replace(".pdf", ""), fuplPDF.FileName.Replace(".pdf", ""), ticket, TbUUID.Text.ToString(), detalleComision.Periodo, TextBoxVersion.Text.ToString());
 
                         //foreach (Entidad x in llEntidad)
                         //{
@@ -3446,7 +3446,8 @@ namespace InapescaWeb.Comprobaciones
                 clsFuncionesGral.Activa_Paneles(PanelTodo, true, false);
                 clsFuncionesGral.Activa_Paneles(pnlPdfDescarga, true);
                 //LinkDescargaMinistracion.InnerText = "DESCARGAR MINISTRACION";
-                LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
+               // LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
+                LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ruta;
 
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "Inapesca", "alert('LA MINISTRACION FUE CREADA CON EXITO, FAVOR DE DESCARGAR EN LA PARTE INFERIOR DE LA PANTALLA');", true);
             }
@@ -3494,12 +3495,13 @@ namespace InapescaWeb.Comprobaciones
                     {
                         string folio_comprobante = MngNegocioComision.Obtiene_Folio_Comprobacion(DetalleComision.Oficio, DetalleComision.Archivo, DetalleComision.Comisionado);
                         clsPdf.Genera_MinistracionSmaf(DetalleComision, folio_comprobante, 0, 0);
-                        LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
+                       // LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
+                        LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ruta;
                     }
                     else
                     {
-                        LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
-
+                      //  LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ubicacion_Comisionado;
+                        LinkDescargaMinistracion.HRef = "~/Descarga.aspx?Ministracion=" + DetalleComision.Archivo + "|" + DetalleComision.Ruta;
                     }
                 }
                 clsFuncionesGral.Activa_Paneles(PanelTodo, true);

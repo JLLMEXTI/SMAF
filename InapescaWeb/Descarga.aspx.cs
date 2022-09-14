@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using InapescaWeb.BRL;
+using InapescaWeb.Entidades;
 
 namespace InapescaWeb
 {
@@ -23,7 +24,7 @@ namespace InapescaWeb
             string sRuta = "";
             string sArchivo = "";
             string sPath = "";
-            string raiz = HttpContext.Current.Server.MapPath("~") + "\\PDF\\";
+            string raiz = HttpContext.Current.Server.MapPath("~");
 
             string psMinistracion = Request.QueryString["MINISTRACION"];
             string psReferencia = Request.QueryString["REFEREN"];
@@ -31,13 +32,13 @@ namespace InapescaWeb
             if (psMinistracion != null)
             {
                 sCadena = psMinistracion.Split(new Char[] { '|' });
-                sRuta = raiz + MngNegocioComision.Obtiene_PeriodoComision(sCadena[0].ToString()) + "\\" + MngNegocioDependencia.Centro_Descrip(sCadena[1].ToString(), true) + "\\" + Dictionary.COMISIONES + "\\" + sCadena[0].ToString().Replace(".pdf", "");
+                sRuta = raiz + "\\" + sCadena[1].ToString();
                 sArchivo = "Ministracion - " + sCadena[0].ToString();
                 sPath = sRuta + "\\" + sArchivo;
             }
             if (psReferencia != null)
             {
-                sRuta = raiz + "REFERENCIAS\\";
+                sRuta = raiz + "\\PDF\\" + "REFERENCIAS\\";
                 sArchivo = psReferencia.ToString();
                 sPath = sRuta + sArchivo;
             }

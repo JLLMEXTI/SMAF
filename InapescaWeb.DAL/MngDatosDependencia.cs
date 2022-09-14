@@ -334,6 +334,7 @@ namespace InapescaWeb.DAL
                Query += " AND A.CLV_DIR = B.CLV_DIR ";
                Query += " AND A.CLV_DEP = '" + psUbicacion  + "'";
                Query += " AND A.CLV_ESTADO =  C.CLV_ESTADO";
+               Query += " AND A.ANIO ='" + Year + "'";
 
                MySqlConnection ConexionMysql = MngConexion.getConexionMysql();
                MySqlCommand cmd = new MySqlCommand(Query, ConexionMysql);

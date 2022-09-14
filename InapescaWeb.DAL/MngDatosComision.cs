@@ -852,7 +852,7 @@ namespace InapescaWeb.DAL
             return Convert.ToString(liNumero);
         }
 
-        public static Boolean Inserta_Comprobacion_Comision(string psOficio, string psClvOficio, string psComisionado, string psUbicacionComisionado, string psFechaFactura, string psProyecto, string psUbicacionProyecto, string psTipoComprobacion, string psClvConcepto, string psDescripcionConcepto, string psPdf, string psImporte, string psXml, string psMetPago, string psMetPagoUsser, string psObservaciones, string psDocumento, string psTicket, string psUUID, string psPeriodo)
+        public static Boolean Inserta_Comprobacion_Comision(string psOficio, string psClvOficio, string psComisionado, string psUbicacionComisionado, string psFechaFactura, string psProyecto, string psUbicacionProyecto, string psTipoComprobacion, string psClvConcepto, string psDescripcionConcepto, string psPdf, string psImporte, string psXml, string psMetPago, string psMetPagoUsser, string psObservaciones, string psDocumento, string psTicket, string psUUID, string psPeriodo, string psVersion="")
         {
             Boolean lbResultado;
 
@@ -882,7 +882,8 @@ namespace InapescaWeb.DAL
             Query += " DOCUMENTO_COMPROBACION,";
             Query += " TICKET,";
             Query += " ESTATUS,";
-            Query += " ANIO";
+            Query += " ANIO, ";
+            Query += " VERSION_CFDI";
             Query += " ) ";
             Query += " VALUES ";
             Query += " ( ";
@@ -910,7 +911,8 @@ namespace InapescaWeb.DAL
             Query += " '" + psDocumento + "',";
             Query += " '" + psTicket + "', ";
             Query += " '1', ";
-            Query += " '" + psPeriodo + "'";
+            Query += " '" + psPeriodo + "', ";
+            Query += " '" + psVersion + "'";
             Query += " )";
             MySqlConnection ConexionMysql = MngConexion.getConexionMysql();
             MySqlCommand cmd = new MySqlCommand(Query, ConexionMysql);

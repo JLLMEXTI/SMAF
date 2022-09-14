@@ -401,3 +401,19 @@ C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.DAL\bin\Debug\InapescaWeb.E
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.csprojResolveAssemblyReference.cache
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.dll
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\bin\Debug\InapescaWeb.DAL.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\bin\Debug\InapescaWeb.DAL.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\bin\Debug\InapescaWeb.Entidades.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\bin\Debug\MySql.Data.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\bin\Debug\InapescaWeb.Entidades.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.pdb
+C:\SMAF 11-09-2022\InapescaWeb.DAL\bin\Debug\InapescaWeb.DAL.dll
+C:\SMAF 11-09-2022\InapescaWeb.DAL\bin\Debug\InapescaWeb.DAL.pdb
+C:\SMAF 11-09-2022\InapescaWeb.DAL\bin\Debug\InapescaWeb.Entidades.dll
+C:\SMAF 11-09-2022\InapescaWeb.DAL\bin\Debug\MySql.Data.dll
+C:\SMAF 11-09-2022\InapescaWeb.DAL\bin\Debug\InapescaWeb.Entidades.pdb
+C:\SMAF 11-09-2022\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.csprojResolveAssemblyReference.cache
+C:\SMAF 11-09-2022\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.dll
+C:\SMAF 11-09-2022\InapescaWeb.DAL\obj\Debug\InapescaWeb.DAL.pdb

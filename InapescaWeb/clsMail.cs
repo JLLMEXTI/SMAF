@@ -220,7 +220,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
 
             try
@@ -411,7 +411,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
 
             try
@@ -634,7 +634,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
             try
             {
@@ -859,7 +859,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
             try
             {
@@ -1052,7 +1052,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
             try
             {
@@ -1264,7 +1264,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
             try
             {
@@ -1349,7 +1349,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
 
             //definir a destino y yhacer recursivo por rol
@@ -1648,7 +1648,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
 
             //definir a destino y yhacer recursivo por rol
@@ -1947,7 +1947,7 @@ namespace InapescaWeb
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", "PH1SHIng&");
+            smtp.Credentials = new System.Net.NetworkCredential("inapesca.info@inapesca.gob.mx", Dictionary.pass);
             smtp.EnableSsl = true;
 
             //definir a destino y yhacer recursivo por rol

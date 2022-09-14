@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cfdi:Comprobante Version="4.0" Serie="VHT" Folio="386891769" Fecha="2022-09-09T08:42:30" Sello="T5/tFhosKqzQsua04nAnVNjjxRhL61Zbac8+EtXO11LkM5oVdSFx6xevjNernxwV9UgUrCue0iKG9xbhCpt4vc8d+58aWRf9qc0A/Jq3S+fosSBOOFaffGWH7tp/BeyfzQ7n8ZixJ2WpZj3FtdGxzK/vsRs+mlx2VZKkprW5RXnGDRsE0sNwp47eoS36+23mDIeTNcQGKHmbY0mEHHXdcjFsZ8W29sIe6qqaBr+XAC3Va0N4ZZb+SHgpwra/LXfkkOtzQI6v+vtXTw+mKFRvL/sRkZvXN8FteNkEEn15NmlbwJivSsKzLh+rtAnNdVIFGNyG6VfLZJg940E3gfy24g==" FormaPago="04" NoCertificado="00001000000506505905" Certificado="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" SubTotal="232.80" Moneda="MXN" Total="248.80" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="86990" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pago20="http://www.sat.gob.mx/Pagos20" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20">
+  <cfdi:Emisor Rfc="CCO8605231N4" Nombre="CADENA COMERCIAL OXXO" RegimenFiscal="623"/>
+  <cfdi:Receptor Rfc="INP001214934" Nombre="INSTITUTO NACIONAL DE PESCA Y ACUACULTURA" DomicilioFiscalReceptor="04100" RegimenFiscalReceptor="603" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50201708" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="VASO CAFE AMERICANO ANDATTI 16 OZ VHT" ValorUnitario="21.12" Importe="21.12" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="21.12" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.38"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50181900" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="PAN DULCE BIGOTES TIA ROSA 68 GR BOLSA CAJETA" ValorUnitario="20.37" Importe="20.37" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20.37" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="1.63"/>
+          <cfdi:Traslado Base="22.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202304" Cantidad="2.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="UNICO FRESCO JUGO VERDE TETRA 475 ML" ValorUnitario="13.95" Importe="27.90" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="27.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202400" Cantidad="2.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="JUGO UNICO FRESCO NARANJA 1L CON PULPA" ValorUnitario="26.45" Importe="52.90" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="52.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="COCA COLA REGULAR CHUBBY 355ML PET" ValorUnitario="11.21" Importe="11.21" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="11.21" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1.79"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50181905" Cantidad="4.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="GALLETAS INTEGRALES ARANDANO BITZ 80G" ValorUnitario="9.03" Importe="36.11" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="36.11" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="2.89"/>
+          <cfdi:Traslado Base="39.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202309" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="VIVE 100% BOT PLAS 500ML" ValorUnitario="14.66" Importe="14.66" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2.34"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202309" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="VIVE 100 GOYI 500ML" ValorUnitario="14.66" Importe="14.66" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2.34"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202301" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="AGUA PURIFICADA BONAFONT 1 LT BOTELLA" ValorUnitario="13.50" Importe="13.50" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="13.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50181900" Cantidad="1.000000" ClaveUnidad="EA" Unidad="EA" Descripcion="PASTELITO DANISH FRESA HOSTESS 120 GR" ValorUnitario="20.37" Importe="20.37" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20.37" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="1.63"/>
+          <cfdi:Traslado Base="22.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="16.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="61.65" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="9.85"/>
+      <cfdi:Traslado Base="76.85" Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="6.15"/>
+      <cfdi:Traslado Base="177.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="a057d033-9acf-4672-b6e8-a71c33d18ffe" RfcProvCertif="SNF171020F3A" FechaTimbrado="2022-09-09T08:42:31" SelloCFD="T5/tFhosKqzQsua04nAnVNjjxRhL61Zbac8+EtXO11LkM5oVdSFx6xevjNernxwV9UgUrCue0iKG9xbhCpt4vc8d+58aWRf9qc0A/Jq3S+fosSBOOFaffGWH7tp/BeyfzQ7n8ZixJ2WpZj3FtdGxzK/vsRs+mlx2VZKkprW5RXnGDRsE0sNwp47eoS36+23mDIeTNcQGKHmbY0mEHHXdcjFsZ8W29sIe6qqaBr+XAC3Va0N4ZZb+SHgpwra/LXfkkOtzQI6v+vtXTw+mKFRvL/sRkZvXN8FteNkEEn15NmlbwJivSsKzLh+rtAnNdVIFGNyG6VfLZJg940E3gfy24g==" NoCertificadoSAT="00001000000414211380" SelloSAT="fIdsAlNIbVLpZ89qxes0b6Mkc8lZJaoX2WMgBpqD3DsiHhc+Kyth6FiuO6YBYgWk/9xKPatWwpKS1+HsMBNhioGy60CP+Go+klOdykRjBmNmVCFsvjfT2cZxNh0OS1IIjuqW6npwO274xPXZaEea74d47i3zZmOWAqQcxYQYtA4K9/+L9MkehMTGqrGV46hN8rV4eXYatBZcj5E3AndsRLD1xGvnUzTFxf/RBJmEEn/InFmqWHY9riELzxYe66jtlf577wgqe+hvude4/WcjGTnBanJnnAZ/TyjChLSSxKa4PLUrBRKHSUfFU3xlyfaciyBPv6I9UHvQg6UQOP8unw=="/>
+    </cfdi:Complemento><cfdi:Addenda>
+    <ns:diverza version="1.1" xmlns:ns="http://www.diverza.com/ns/addenda/diverza/1">
+      <ns:generales tipoDocumento="Factura"/>
+      <ns:clavesDescripcion c_TipoDeComprobante="Ingreso" c_MetodoPago="PAGO EN UNA SOLA EXHIBICION" c_RegimenFiscal="Opcional para Grupos de Sociedades" c_UsoCFDI="Gastos en general"/>
+      <ns:receptor>
+        <ns:domicilioFiscalR calle="AVENIDA MEXICO" numero="190" colonia="DEL CARMEN" ciudad="COYOACAN" municipio="COYOACAN" estado="CIUDAD DE MEXICO" pais="México"/>
+      </ns:receptor>
+    </ns:diverza>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

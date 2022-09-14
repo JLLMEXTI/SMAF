@@ -92,6 +92,7 @@ namespace InapescaWeb.Entidades
         private string TimbreFiscalDigital;
         private string fechaTimbrado;
         private string AñoExp;
+        private string versionXml;
 
         public Xml()
         {
@@ -163,6 +164,7 @@ namespace InapescaWeb.Entidades
             LugarExp = "";
             noCertificado = "";
             AñoExp = "";
+            versionXml = "";
         }
 
         //cfdi:Conceptos
@@ -170,6 +172,11 @@ namespace InapescaWeb.Entidades
         {
             get { return AñoExp; }
             set { AñoExp = value; }
+        }
+        public string VERSION
+        {
+            get { return versionXml; }
+            set { versionXml = value; }
         }
         public string IMPORTE
         {

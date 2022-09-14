@@ -118,7 +118,7 @@
                                         <div>
                                             <table id="Table1">
                                                 <tr>
-                                                    <td colspan="10" style="text-align: center">
+                                                    <td colspan="2" style="text-align: center">
                                                         <asp:Label ID="Label14" runat="server" CssClass="h1Azul" Text="DETALLES COMISIÓN"></asp:Label><hr />
                                                     </td>
                                                 </tr>
@@ -200,7 +200,7 @@
                                         <div>
                                             <table style="width: 100%; border: 0;">
                                                 <tr>
-                                                    <td colspan="3" style="text-align: center">
+                                                    <td style="text-align: center">
                                                         <b>
                                                             <hr />
                                                             <asp:Label ID="Label30" runat="server" CssClass="h1Azul" Text="SUBIR DOCUMENTACION PARA LA COMPROBACION DE GASTOS"></asp:Label><hr />
@@ -365,37 +365,44 @@
                                                         <td colspan="3">
                                                             <table width="100%" border="0">
                                                                 <tr>
-                                                                    <td style="text-align: right;">
+                                                                    <td  style="width:10%; text-align: left;">
                                                                         <b>
                                                                             <asp:Label ID="Label35" runat="server" Text="UUID: "></asp:Label></b>
                                                                     </td>
-                                                                    <td colspan="5">
+                                                                    <td colspan="5" style="width:40%; text-align: left;">
                                                                         <asp:TextBox ID="TbUUID" runat="server" Width="100%"></asp:TextBox>
                                                                     </td>
                                                                     
                                                                 </tr>
                                                                 <tr>
-                                                                    <td style="width:15%; text-align:right;">
+                                                                    <td style="width:10%; text-align:left;">
                                                                         <b>
                                                                             <asp:Label ID="Label36" runat="server" Text="IMPORTE: $" Width="100%"></asp:Label></b>
                                                                     </td>
-                                                                    <td style="width:15%;">
+                                                                    <td style="width:5%;">
                                                                         <asp:TextBox ID="TbImporteFact" runat="server"></asp:TextBox>
                                                                     </td>
-                                                                   <td style="width:20%; text-align: right;">
+                                                                   <td style="width:5%; text-align: left;">
                                                                         <b>
                                                                             <asp:Label ID="Label37" runat="server" Text="FECHA FACTURA: " Width="100%"></asp:Label></b>
                                                                     </td>
-                                                                    <td style="width:20%; text-align: right;">
+                                                                    <td style="width:5%; text-align: left;">
                                                                         <asp:TextBox ID="TbFechaFac" runat="server"></asp:TextBox>
                                                                         <cc1:CalendarExtender ID="TbFechaFac_CalendarExtender" runat="server" BehaviorID="TbFechaFac_CalendarExtender" TargetControlID="TbFechaFac" Format="yyyy-MM-dd" />
                                                                     </td>
-                                                                    <td style="width:20%; text-align: right;">
+                                                                    <td style="width:5%; text-align: left;">
                                                                         <b>
                                                                             <asp:Label ID="Label38" runat="server" Text="METODO PAGO: " Width="100%" ></asp:Label></b>
                                                                     </td>
-                                                                    <td style="width:10%;">
+                                                                    <td style="width:5%;">
                                                                         <asp:TextBox ID="TbMetodoPagoFact" runat="server"></asp:TextBox>
+                                                                    </td>
+                                                                     <td style="width:5%; text-align:left;">
+                                                                        <b>
+                                                                            <asp:Label ID="LbVersion" runat="server" Text="VERSION: "></asp:Label></b>
+                                                                    </td>
+                                                                    <td style="width:5%;">
+                                                                        <asp:TextBox ID="TextBoxVersion" runat="server"></asp:TextBox>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -577,7 +584,7 @@
                                         <%--   Termina grid Internacional Modificacion Patricia 28-06-17--%>
                                         <table style="border: 0; width: 100%;">
                                             <tr>
-                                                <td colspan="2" align="center">
+                                                <td align="center">
                                                     <h2>
                                                         <asp:Label ID="Label12" CssClass="h2Azul" runat="server" Text="Label"></asp:Label></h2>
                                                 </td>
@@ -588,7 +595,7 @@
                                             <asp:Panel ID="pnlComprob" runat="server">
                                                 <table style="border: 0; width: 100%;">
                                                     <tr>
-                                                        <td colspan="2">
+                                                        <td>
                                                             <div id="div3" class="DivTableHeader">
                                                                 <%--FISCALES--%>
                                                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
@@ -609,7 +616,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td style="text-align: center; width: auto;" colspan="2">
+                                                        <td style="text-align: center; width: auto;">
                                                             <div id="Div1" style="overflow-y: scroll; height: 150px; width: 100%">
                                                                 <asp:GridView ID="GvFiscales" runat="server" Width="100%" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" ShowHeader="false" GridLines="None" OnSelectedIndexChanged="GvFiscales_SelectedIndexChanged">
                                                                     <AlternatingRowStyle BackColor="White" />
@@ -641,7 +648,7 @@
                                         <%--   Termina grid Fiscales Modificacion Patricia 28-06-17--%>
                                         <table style="border: 0; width: 100%;">
                                             <tr>
-                                                <td colspan="2" align="center">
+                                                <td align="center">
                                                     <h2>
                                                         <asp:Label ID="Label19" runat="server" CssClass="h2Azul" Text="Label"></asp:Label></h2>
                                                 </td>
@@ -653,7 +660,7 @@
                                             <asp:Panel ID="pnlNoFiscales" runat="server">
                                                 <table style="border: 0; width: 100%;">
                                                     <tr>
-                                                        <td colspan="2">
+                                                        <td>
                                                             <div id="div2" class="DivTableHeader">
 
                                                                 <table cellspacing="0" cellpadding="0" border="0" width="100%">
@@ -677,7 +684,7 @@
                                                     <%--Griv NO Fiscal Modificacion Patricia 28-06-17--%>
 
                                                     <tr>
-                                                        <td style="text-align: center; width: auto;" colspan="2">
+                                                        <td style="text-align: center; width: auto;">
                                                             <div id="Div4" style="overflow-y: scroll; height: 150px;">
                                                                 <asp:GridView ID="GvNoFiscales" runat="server" Width="100%" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" ShowHeader="false" GridLines="None" OnSelectedIndexChanged="GvNoFiscales_SelectedIndexChanged">
                                                                     <AlternatingRowStyle BackColor="White" />
@@ -710,7 +717,7 @@
                                         <%--   Termina grid No Fiscales Modificacion Patricia 28-06-17--%>
                                         <table style="width: 100%; border: 0;">
                                             <tr>
-                                                <td colspan="2">
+                                                <td>
                                                     <table style="width: 100%; border: 0; text-align: center">
                                                         <tr>
                                                             <td>

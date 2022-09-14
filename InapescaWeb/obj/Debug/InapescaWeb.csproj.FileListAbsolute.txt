@@ -367,3 +367,30 @@ C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb\obj\Debug\InapescaWeb.cspro
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb\obj\Debug\InapescaWeb.csproj.ResolveComReference.cache
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb\obj\Debug\InapescaWeb.dll
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb\obj\Debug\InapescaWeb.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.BRL.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.DAL.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.Entidades.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\QRCoder.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\MySql.Data.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.BRL.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.DAL.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\bin\InapescaWeb.Entidades.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\obj\Debug\InapescaWeb.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\obj\Debug\InapescaWeb.csproj.ResolveComReference.cache
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\obj\Debug\InapescaWeb.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb\obj\Debug\InapescaWeb.pdb
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.dll
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.pdb
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.BRL.dll
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.DAL.dll
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.Entidades.dll
+C:\SMAF 11-09-2022\InapescaWeb\bin\MySql.Data.dll
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.BRL.pdb
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.DAL.pdb
+C:\SMAF 11-09-2022\InapescaWeb\bin\InapescaWeb.Entidades.pdb
+C:\SMAF 11-09-2022\InapescaWeb\obj\Debug\InapescaWeb.csprojResolveAssemblyReference.cache
+C:\SMAF 11-09-2022\InapescaWeb\obj\Debug\InapescaWeb.csproj.ResolveComReference.cache
+C:\SMAF 11-09-2022\InapescaWeb\obj\Debug\InapescaWeb.dll
+C:\SMAF 11-09-2022\InapescaWeb\obj\Debug\InapescaWeb.pdb

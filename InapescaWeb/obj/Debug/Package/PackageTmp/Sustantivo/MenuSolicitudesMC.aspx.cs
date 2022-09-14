@@ -29,10 +29,24 @@ namespace InapescaWeb.Sustantivo
             {
                 if (!IsPostBack)
                 {
-                    // Carga_Session();
-                    clsFuncionesGral.LlenarTreeView("0", tvMenu, false, Session["Crip_Rol"].ToString());
-                    Carga_Valores();
-                    Carga_Listas("1", Year);
+                    string lsSession = Session["Crip_Rol"].ToString();
+
+                    string lsPermiso = MngNegocioPermisos.ObtienePermisos(Session["Crip_Usuario"].ToString(), Dictionary.PERMISO_ENLACEDIR);
+
+                    if ((lsSession == Dictionary.DIRECTOR_ADJUNTO) || ((lsSession == Dictionary.JEFE_DEPARTAMENTO) && (lsPermiso == Dictionary.PERMISO_ENLACEDIR)))
+                    {
+                        // Carga_Session();
+                        clsFuncionesGral.LlenarTreeView("0", tvMenu, false, Session["Crip_Rol"].ToString());
+                        Carga_Valores();
+                        Carga_Listas("1", Year);
+                    }
+                    else 
+                    {
+                        ClientScript.RegisterStartupScript(this.GetType(), "Inapesca", "alert('No cuenta con los permisos nesesarios para realizar esta accion.');", true);
+                        Response.Redirect("../Home/Home.aspx", true);
+                    
+                    }
+
                 }
             }
             else
@@ -46,7 +60,7 @@ namespace InapescaWeb.Sustantivo
             lnkHome.Text = Dictionary.INICIO;
             lnkUsuario.Text = Session["Crip_Nombre"].ToString() + " " + Session["Crip_ApPat"].ToString() + " " + Session["Crip_ApMat"].ToString();
 
-            Label1.Text = clsFuncionesGral.ConvertMayus("Comisiones: ");
+            Label1.Text = clsFuncionesGral.ConvertMayus("Busqueda por: ");
             Label2.Text = clsFuncionesGral.ConvertMayus("Año: ");
 
             dplAnio.DataSource = MngNegocioAnio.ObtieneAnios();
@@ -54,8 +68,13 @@ namespace InapescaWeb.Sustantivo
             dplAnio.DataValueField = Dictionary.CODIGO;
             dplAnio.DataBind();
             dplAnio.SelectedValue = Year;
-
-            DropDownList1.DataSource = MngNegocioSolicitud.ObtieneListaEstatus();
+            //aqui me quede
+            DropDownList1.Items.Insert(0,"S E L E C C I O N E");
+            DropDownList1.Items.Insert(1, "FOLIO DE SOLICITUD");
+            DropDownList1.Items.Insert(2, "NO. OFICIO");
+            DropDownList1.Items.Insert(3, "AÑO");
+            DropDownList1.Items.Insert(4, "ESTATUS");
+            DropDownList1.Items.Insert(5, "RECURSO");
             DropDownList1.DataTextField = "Descripcion";
             DropDownList1.DataValueField = "Codigo";
             DropDownList1.DataBind();

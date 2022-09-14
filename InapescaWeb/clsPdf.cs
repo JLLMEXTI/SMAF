@@ -1869,6 +1869,7 @@ namespace InapescaWeb
                         }
                         */
 
+
             if (poComision.Territorio == Dictionary.Internacional)
             {
                 Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(Dictionary.DG, true), poComision.Archivo.Replace(".pdf", ""));
@@ -1887,7 +1888,6 @@ namespace InapescaWeb
                 Valida_Carpeta(poUbicacion.Descripcion, poComision.Archivo.Replace(".pdf", ""));
                 //  CLave_Oficio += poUbicacion.Siglas + "-" + poComision.Oficio + "-" + Dictionary.YEAR;
             }
-
 
             path = Ruta + "\\" + archivo;
 
@@ -7226,8 +7226,39 @@ namespace InapescaWeb
             //string path = raiz + archivo;
             string raiz = HttpContext.Current.Server.MapPath("~") + "\\PDF\\";
 
-            Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Comisionado, true), poComision.Archivo.Replace(".pdf", ""));
-            string Ruta = raiz + Year + "/" + MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Comisionado, true) + "/" + Dictionary.COMISIONES + "/" + poComision.Archivo.Replace(".pdf", "");
+          /*Se comenta el 11/09/22 para nueva forma de validar carpeta
+           * 
+           * Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Comisionado, true), poComision.Archivo.Replace(".pdf", ""));
+           * 
+           */
+
+            //Inicia nueva forma de validar carpeta para ministración//
+            Entidad oDireccionTipo = MngDatosDependencia.Obtiene_Tipo_Region(poComision.Ubicacion_Comisionado);
+
+            if (poComision.Territorio == Dictionary.Internacional)
+            {
+                Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(Dictionary.DG, true), poComision.Archivo.Replace(".pdf", ""));
+            }
+            else if ((poComision.Ubicacion_Autoriza == Dictionary.DGAA) | (poComision.Ubicacion_Autoriza == Dictionary.DGAJ) | (poComision.Ubicacion_Autoriza == Dictionary.DG) | (poComision.Ubicacion_Autoriza == Dictionary.DGAIPA) | (poComision.Ubicacion_Autoriza == Dictionary.DGAIA) | (poComision.Ubicacion_Autoriza == Dictionary.DGAIPP))
+            {
+                Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Autoriza, true), poComision.Archivo.Replace(".pdf", ""));
+            }
+            else if (oDireccionTipo.Descripcion == Dictionary.SUBDIRECCIONES_GENERALES)
+            {
+                Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(oDireccionTipo.Codigo, true), poComision.Archivo.Replace(".pdf", ""));
+
+            }
+            else
+            {
+                Valida_Carpeta(MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Comisionado, true), poComision.Archivo.Replace(".pdf", ""));
+            }
+
+            oDireccionTipo = null;
+            
+            //termina nueva forma de validar carpeta para ministración  //
+          
+           // string Ruta = raiz + Year + "/" + MngNegocioDependencia.Centro_Descrip(poComision.Ubicacion_Comisionado, true) + "/" + Dictionary.COMISIONES + "/" + poComision.Archivo.Replace(".pdf", "");
+           
             string path = Dictionary.CADENA_NULA;
             string archivo = "Ministracion - " + poComision.Archivo;
             path = Ruta + "\\" + archivo;

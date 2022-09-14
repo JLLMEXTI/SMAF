@@ -135,7 +135,7 @@ namespace InapescaWeb
         private readonly string lsUsuarioreintegros = "carlos.tafolla";
         private readonly string lsUsuarioValidador = "gabino.alvarez";
         private readonly string lsUsuarioMinistradorOficinas = "soporte.smaf@gmail.com";
-        
+        private readonly string lspas = "Inform@tic4";
         private readonly string lsDiasAuales = "48";
         private readonly string lsDiasContinuosNacional = "7";
         private readonly string lsDiasContinuosIntermacionales = "10";
@@ -164,6 +164,10 @@ namespace InapescaWeb
         public string dplConceptoGasto1
         {
             get { return lsdplConceptoGasto1; }
+        }
+        public string pass
+        {
+            get { return lspas; }
         }
         public string dplConceptoGasto2
         {

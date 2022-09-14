@@ -710,7 +710,6 @@
     <Folder Include="Catalogos\Chart\" />
     <Folder Include="obj\" />
     <Folder Include="PDF\REFERENCIAS\" />
-    <Folder Include="Solicitudes\PDF\" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="VBIDE">
@@ -757,7 +756,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

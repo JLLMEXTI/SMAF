@@ -212,3 +212,12 @@ C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.Entidades\bin\Debug\Inapesc
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.pdb
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.dll
 C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.pdb
+C:\SMAF VERSIÓN AL 26-01-2022\Sytes.Net\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.pdb
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.dll
+D:\OneDrive\Documentos\Desarrollo\SMAF\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.pdb
+C:\SMAF 11-09-2022\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.dll
+C:\SMAF 11-09-2022\InapescaWeb.Entidades\bin\Debug\InapescaWeb.Entidades.pdb
+C:\SMAF 11-09-2022\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.dll
+C:\SMAF 11-09-2022\InapescaWeb.Entidades\obj\Debug\InapescaWeb.Entidades.pdb
